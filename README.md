@@ -19,7 +19,7 @@ Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx
 
 * **PDF Intelligence**: Extracts and chunks text from uploaded PDFs using `PyPDF2` and `RecursiveCharacterTextSplitter`.
 * **Vector Search**: Uses `FAISS` and `HuggingFaceEmbeddings` to find the most relevant context for questions.
-* **Interactive Quizzes**: Generate 5 multiple-choice questions with **zero-default selection** logic (no pre-selected answers).
+* **Interactive Quizzes**: Generate 5 multiple-choice questions.
 * **Smart Flashcards**: Automated creation of front/back study cards.
 * **Ngrok Integration**: Securely tunnels the local Streamlit app to a public URL for easy access.
 
@@ -29,7 +29,7 @@ Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx
 
 * **LLM**: Mistral-Nemo-Instruct-2407
 * **Orchestration**: LangChain
-* **Vector DB**: FAISS (Facebook AI Similarity Search)
+* **Vector DB**: FAISS
 * **Backend**: FastAPI & Uvicorn
 * **Frontend**: Streamlit
 * **Tunneling**: PyNgrok
