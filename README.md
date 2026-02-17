@@ -8,8 +8,7 @@ An end-to-end AI application that uses **Retrieval-Augmented Generation (RAG)** 
 Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx. 24GB), running it locally requires a high-end GPU. We recommend using the provided notebook on Google Colab or Kaggle.
 
 1. **Open the Notebook**: 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/
-Mariam-Alashmawy/AI-Study-Material-Generator/blob/main/notebook/ai-study-material-generator.ipynb)
+   [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/kernels/welcome?src=https://github.com/Mariam-Alashmawy/AI-Study-Material-Generator/blob/main/notebook/ai-study-material-generator.ipynb)
 2. **Set Hardware**: Ensure the environment is set to **GPU (T4 or higher)**.
 3. **Configure**: Insert your `NGROK_TOKEN` when prompted in the code.
 4. **Run All**: Execute all cells to launch the FastAPI backend and the Streamlit frontend.
