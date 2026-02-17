@@ -1,12 +1,9 @@
 # AI-Study-Material-Generator
-An AI-powered RAG system to generate quizzes and flashcards from PDFs
-# 🎓 AI Study Buddy: RAG-Powered Quiz & Flashcard Generator
-
 An end-to-end AI application that uses **Retrieval-Augmented Generation (RAG)** to transform PDF documents into interactive study materials. Built with **Mistral-Nemo-Instruct**, **FastAPI**, and **Streamlit**.
 
 
 
-## 🚀 Quick Start (Recommended)
+## Quick Start 
 
 Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx. 24GB), running it locally requires a high-end GPU. We recommend using the provided notebook on Google Colab or Kaggle.
 
@@ -18,7 +15,7 @@ Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx
 
 ---
 
-## ✨ Features
+## Features
 
 * **PDF Intelligence**: Extracts and chunks text from uploaded PDFs using `PyPDF2` and `RecursiveCharacterTextSplitter`.
 * **Vector Search**: Uses `FAISS` and `HuggingFaceEmbeddings` to find the most relevant context for questions.
@@ -28,7 +25,7 @@ Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **LLM**: Mistral-Nemo-Instruct-2407
 * **Orchestration**: LangChain
@@ -39,7 +36,7 @@ Because this project uses the heavy **Mistral-Nemo-Instruct-2407** model (approx
 
 ---
 
-## 📝 Setup for Local Development
+## Setup for Local Development
 
 If you have a GPU with 24GB+ VRAM, you can run this locally:
 
